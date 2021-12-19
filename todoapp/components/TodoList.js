@@ -40,7 +40,7 @@ class TodoList extends Component {
         <div className="todoInput">
           <Form onSubmit={this.addItem}>
             <InputGroup size="lg" className="mb-3">
-              <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+              <InputGroup.Text id="basic-addon1">Task</InputGroup.Text>
               <FormControl
                 placeholder="enter task"
                 aria-label="task"
