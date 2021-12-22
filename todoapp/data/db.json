@@ -1,0 +1,78 @@
+{
+  "tasks": {
+    "task-1": {
+      "id": "task-1",
+      "content": "take out the garbage",
+      "completed": false,
+      "tag": "todo"
+    },
+    "task-2": {
+      "id": "task-2",
+      "content": "ski a little",
+      "completed": false,
+      "tag": "todo"
+    },
+    "task-3": {
+      "id": "task-3",
+      "content": "drop a coin to you witcher",
+      "completed": false,
+      "tag": "todo"
+    },
+    "task-4": {
+      "id": "task-4",
+      "content": "go to the valley of plenty",
+      "completed": false,
+      "tag": "todo"
+    },
+    "task-5": {
+      "id": "task-5",
+      "content": "go to the mountains",
+      "completed": false,
+      "tag": "complete"
+    },
+    "task-6": {
+      "id": "task-6",
+      "content": "make some coffee",
+      "completed": false,
+      "tag": "complete"
+    },
+    "task-7": {
+      "id": "task-7",
+      "content": "do your homework",
+      "completed": false,
+      "tag": "complete"
+    },
+    "task-8": {
+      "id": "task-8",
+      "content": "clean the house",
+      "completed": false,
+      "tag": "complete"
+    }
+  },
+  "columns": {
+    "column-1": {
+      "id": "column-1",
+      "title": "to do",
+      "taskIds": [
+        "task-2",
+        "task-8",
+        "task-1",
+        "task-6"
+      ]
+    },
+    "column-2": {
+      "id": "column-2",
+      "title": "completed",
+      "taskIds": [
+        "task-4",
+        "task-3",
+        "task-7",
+        "task-5"
+      ]
+    }
+  },
+  "columnOrder": [
+    "column-1",
+    "column-2"
+  ]
+}
